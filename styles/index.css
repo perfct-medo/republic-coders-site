@@ -155,10 +155,10 @@ nav p {
     flex-direction: column;
 }
 .iaf {
-    background: url(../images/IAFBG.png);
+    background-image: url(../images/IAFBG.png);
 }
 .army {
-    background: url(../images/Army\ bg.png);
+    background-image: url(../images/Army\ bg.png);
 }
 .navy {
     background: url(../images/Navy\ bg.png);
@@ -247,7 +247,7 @@ nav p {
 .ranklist img {
     margin: auto 20px;
     padding: 0 30px;
-	transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 /* footer */
@@ -290,7 +290,7 @@ nav p {
 
 /* Indian Army */
 #indian-army {
-    background: url(../images/Army\ main\ bg.png);
+    background-image: url(../images/Army\ main\ bg.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
