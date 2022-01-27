@@ -54,23 +54,26 @@
 }
 
 .text-area h3 {
+	position: relative;
+	right: 115px;
     font-style: normal;
     font-weight: 600;
-    font-size: 43.92px;
+    font-size: 40px;
     line-height: 121.1%;
     letter-spacing: 0.01em;
     color: #767981;
 }
 
 .sec-text p {
-	max-width: 597px;
+	padding-right: 100px;
+	max-width: 550px;
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 27px;
     line-height: 130%;
     letter-spacing: 0.01em;
     color: #767981;
-	margin: 100px 0;
+	margin: 50px 0;
 }
 
 
