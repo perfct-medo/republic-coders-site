@@ -1,0 +1,357 @@
+/* font-family: 'Hind', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+/* Navigation Bar */
+
+.home-1 {
+    background-position: 0 0;
+    background-image: url("/images/Home1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 720px;
+}
+
+.nav-container {
+    /* position: absolute; */
+    width: 100%;
+    height: 54px;
+
+    background: rgba(168, 168, 168, 0.15);
+    backdrop-filter: blur(30px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 10px 10px;
+}
+
+nav p {
+    margin: 0 20px;
+}
+
+/* Landing Page Content */
+.land-content {
+    margin: 200px auto;
+    text-align: center;
+}
+
+.land-content h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 59px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.175em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.land-content h3 {
+    font-family: Hind;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 104px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px #000000;
+    margin-top: 50px;
+}
+
+.land-content button {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    color: #2b2b2b;
+    font-size: 22px;
+    background: #efefef;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.land-content button:hover {
+    background: #999999;
+    text-decoration: none;
+}
+
+/* home-2 */
+
+.home-2 {
+    height: 720px;
+    background-color: #e4eaf9;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-2 p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 121.1%;
+    letter-spacing: 0.01em;
+    color: #65708f;
+    width: 569px;
+    height: 553px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.home-2 img {
+    margin: 0 50px;
+}
+
+/* home-3 */
+.home-3 {
+    display: flex;
+    justify-content: space-around;
+    height: 720px;
+    background: #b0b8cf;
+}
+
+.desc {
+    margin: 86px 0;
+}
+
+.force-top {
+    width: 296px;
+    height: 435px;
+    filter: drop-shadow(3px 6px 18px rgba(128, 128, 128, 0.37));
+    border-radius: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.iaf {
+    background: url(/images/IAFBG.png);
+}
+.army {
+    background: url(/images/Army\ bg.png);
+}
+.navy {
+    background: url(/images/Navy\ bg.png);
+}
+
+.force-top img {
+    margin: 10px auto;
+}
+.force-top h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27.9622px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.bottom-text {
+    text-align: center;
+}
+
+.bottom-text h3 {
+    font-family: Hind;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.6512px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #f8faff;
+    margin: 32px auto 0 auto;
+}
+
+.bottom-text h6 {
+    width: 265px;
+    font-family: Hind;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 121.1%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #f8faff;
+    margin: 20px;
+}
+
+/* home-4 */
+.home-4 {
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+    background: #e4eaf9;
+}
+
+.home-4 h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #5d6068;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.27);
+}
+
+.home-4 .ranklist {
+    display: flex;
+    align-items: center;
+}
+
+.ranklist h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #8f939f;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.27);
+    margin: 10px 0 10px 50px;
+}
+
+.ranklist img {
+    margin: auto 20px;
+    padding: 0 30px;
+	transform: scale(0.8);
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #b0b8cf;
+    height: 300px;
+}
+
+.footer h6 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 121.1%;
+    letter-spacing: 0.01em;
+    color: #65708f;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.join p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27.9622px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+/* Indian Army */
+#indian-army {
+    background: url(/images/Army\ main\ bg.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 720px;
+}
+
+.glass {
+    width: 50%;
+    height: 720px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(50px);
+}
+.wrapper {
+    text-align: center;
+}
+
+.wrapper img {
+    margin: 10px auto;
+    width: 122px;
+    height: 122px;
+}
+.wrapper h1 {
+    margin: 10px auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 59px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.175em;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px #000000;
+}
+.wrapper h3 {
+    margin: 10px auto;
+    font-family: Hind;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 67px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px #000000;
+}
+.wrapper p {
+	max-width: 550px;
+    margin: 40px auto 0 auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 121.1%;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #ffffff;
+}
