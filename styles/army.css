@@ -1,0 +1,77 @@
+.chief {
+    background-color: #e4eaf9;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    position: relative;
+    left: 80px;
+    width: 460px;
+    height: 484px;
+    box-shadow: 3px 6px 18px rgba(128, 128, 128, 0.37);
+    border-radius: 39px;
+    z-index: 2;
+}
+
+.img-container img {
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+}
+
+.text-area {
+    position: relative;
+    right: 100px;
+    width: 925px;
+    height: 623px;
+    background: #ffffff;
+    box-shadow: 3px 6px 18px rgba(128, 128, 128, 0.37);
+    border-radius: 26px;
+    text-align: center;
+}
+
+.text-area h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49.5987px;
+    line-height: 121.1%;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #767981;
+}
+
+.sec-text {
+    max-width: 665px;
+    position: relative;
+    left: 200px;
+	margin: 50px auto 0 0;
+}
+
+.text-area h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.92px;
+    line-height: 121.1%;
+    letter-spacing: 0.01em;
+    color: #767981;
+}
+
+.sec-text p {
+	max-width: 597px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #767981;
+	margin: 100px 0;
+}
+
+
+/* Air Force */
